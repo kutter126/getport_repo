@@ -1,0 +1,10 @@
+---
+hosts: all
+vars:
+  testvar1: var1
+
+tasks:
+  - name: Ping hosts
+    ansible.builtin.ping:
+    
+  
